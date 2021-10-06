@@ -1,3 +1,4 @@
+```Python
 from sklearn.neural_network import MLPClassifier
 import pandas as pd
 import numpy as np
@@ -32,3 +33,4 @@ with open('samples.csv', 'w', newline='') as f:
     f_csv = csv.writer(f)
     f_csv.writerow(headers)
     f_csv.writerows(data)
+```
